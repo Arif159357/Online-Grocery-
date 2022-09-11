@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/grocerypic"
+    >
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:hint="Username"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/uname"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/Conpass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Confirm Password"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/pass"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="209dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/Conpass"
+        android:text="Register"
+        android:textSize="25sp"
+        android:alpha="0.6"
+        android:layout_toRightOf="@+id/sigin"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

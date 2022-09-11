@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="405dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/boal"
+                            android:src="@drawable/boal"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/rui"
+                            android:src="@drawable/rui"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/boal"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/pangas"
+                            android:src="@drawable/pangas"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/rui"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/hilsha"
+                            android:src="@drawable/hilsha"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/pangas"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/katla"
+                            android:src="@drawable/katla"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/hilsha"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Boal-- 200 tk/kg "
+                            android:id="@+id/txtBoal"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/boal"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Rui- 310 tk/kg"
+                            android:id="@+id/txtRui"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/rui"
+                            android:layout_toRightOf="@+id/txtBoal"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pangas- 150 tk/kg"
+                            android:id="@+id/txtPangas"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/pangas"
+                            android:layout_toRightOf="@+id/txtRui"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hilsha- 600 tk/kg"
+                            android:id="@+id/txtHilsha"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/hilsha"
+                            android:layout_toRightOf="@+id/txtPangas"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Katla- 300 tk/kg"
+                            android:id="@+id/txtKatla"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/katla"
+                            android:layout_toRightOf="@+id/txtHilsha"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fruits"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/orange"
+                            android:src="@drawable/orange"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/banana"
+                            android:src="@drawable/banana"
+                            android:layout_toRightOf="@+id/orange"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/mango"
+                            android:src="@drawable/mango"
+                            android:layout_toRightOf="@+id/banana"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/pineapple"
+                            android:src="@drawable/pineapple"
+                            android:layout_toRightOf="@+id/mango"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/apple"
+                            android:src="@drawable/apple"
+                            android:layout_toRightOf="@+id/pineapple"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Orange- 180 tk/kg"
+                            android:id="@+id/txtOrange"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/orange"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Banana- 100 tk/dozen"
+                            android:id="@+id/txtBanana"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_toRightOf="@+id/txtOrange"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Mango- 230 tk/kg"
+                            android:id="@+id/txtMango"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_toRightOf="@+id/txtBanana"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pineapple- 60 tk/piece"
+                            android:id="@+id/txtPineapple"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_toRightOf="@+id/txtMango"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Apple- 220 tk/kg"
+                            android:id="@+id/txtApple"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/banana"
+                            android:layout_toRightOf="@+id/txtPineapple"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meat"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/chicken"
+                            android:src="@drawable/chicken"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/beef"
+                            android:src="@drawable/beef"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/chicken"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/mutton"
+                            android:src="@drawable/mutton"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/beef"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/koyel"
+                            android:src="@drawable/koyel"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/mutton"
+                            />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chicken- 200 tk/kg"
+                            android:id="@+id/txtChicken"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/chicken"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Beef- 550 tk/kg"
+                            android:id="@+id/txtBeef"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/mutton"
+                            android:layout_toRightOf="@+id/txtChicken"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Mutton- 700 tk/kg"
+                            android:id="@+id/txtMutton"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/mutton"
+                            android:layout_toRightOf="@+id/txtBeef"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Koyel- 300 tk/kg"
+                            android:id="@+id/txtKoyel"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/koyel"
+                            android:layout_toRightOf="@+id/txtMutton"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dairy"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/butter"
+                            android:src="@drawable/butter"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/cheese"
+                            android:src="@drawable/chesse"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/butter"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/egg"
+                            android:src="@drawable/eggs"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/cheese"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/milk"
+                            android:src="@drawable/milk"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/egg"
+                            />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Butter- 170 tk/200 gm"
+                            android:id="@+id/txtButter"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_below="@+id/butter"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cheese- 150 tk/200 gm"
+                            android:id="@+id/txtCheese"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_toRightOf="@+id/txtButter"
+                            android:layout_below="@+id/cheese"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Eggs- 120 tk/dozen"
+                            android:id="@+id/txtEgg"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/egg"
+                            android:layout_toRightOf="@+id/txtCheese"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Milk- 65 tk/litre"
+                            android:id="@+id/txtMilk"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/milk"
+                            android:layout_toRightOf="@+id/txtEgg"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spices"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:gravity="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/chilli"
+                            android:src="@drawable/chilli"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/daruchini"
+                            android:src="@drawable/chesse"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/chilli"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/elachi"
+                            android:src="@drawable/elachi"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/daruchini"
+                            />
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/kalojira"
+                            android:src="@drawable/kalojira"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/elachi"
+                            />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Chilli gura- 50 tk/100 gm"
+                            android:id="@+id/txtChilli"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_below="@+id/chilli"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Daruchini- 50 tk/100 gm"
+                            android:id="@+id/txtDaruchini"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_toRightOf="@+id/txtChilli"
+                            android:layout_below="@+id/chilli"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Elachi- 100 tk/50 gm"
+                            android:id="@+id/txtElachi"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/elachi"
+                            android:layout_toRightOf="@+id/txtDaruchini"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Kalojira- 30 tk/100 gm"
+                            android:id="@+id/txtKalojira"
+                            android:textColor="#fff"
+                            android:textSize="15dp"
+                            android:layout_below="@+id/kalojira"
+                            android:layout_toRightOf="@+id/txtElachi"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+
+                            />
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showIT"
+                android:text="Show Items"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
